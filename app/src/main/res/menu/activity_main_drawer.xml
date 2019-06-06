@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_menu_about_col" android:id="@+id/aboutkolled" android:title="@string/menu_opt_aboutCol" />
+        <item android:icon="@drawable/ic_menu_shed" android:id="@+id/rasp" android:title="@string/menu_opt_shedule" />
+        <item android:icon="@drawable/ic_menu_hw" android:id="@+id/dz" android:title="@string/menu_opt_homeW" />
+        <item android:icon="@drawable/ic_menu_news" android:id="@+id/news" android:title="@string/menu_opt_news" />
+
+    </group>
+
+    <item android:title="@string/menu_group_tit">
+        <menu>
+            <item android:icon="@drawable/ic_menu_settings" android:id="@+id/settings" android:title="@string/menu_opt_settings" />
+            <item android:icon="@drawable/ic_menu_about_app" android:id="@+id/about" android:title="@string/menu_opt_aboutApp" />
+        </menu>
+    </item>
+
+</menu>

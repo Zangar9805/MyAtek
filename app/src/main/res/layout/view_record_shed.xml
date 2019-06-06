@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/bg_shed_days"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/item_days_of_week"
+            tools:text="Понедельник"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/item_id"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/akcent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="8:00\n\n9:30"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/akcent"/>
+
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:id="@+id/item_sub1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="ООП"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:id="@+id/item_sub1_teach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Егетаев З.С."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:id="@+id/item_sub1_lec"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="209 каб. (главный)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/akcent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="9:45\n\n11:15"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/akcent"/>
+
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_sub2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Алгоритмдеу және бағдарламалау негіздері"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:id="@+id/item_sub2_teach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Егетаев З.С."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:id="@+id/item_sub2_lec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="209 каб. (главный)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/akcent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="11:30\n\n13:00"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/akcent"/>
+
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_sub3_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Алгоритмдеу және бағдарламалау негіздері"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:id="@+id/item_sub3_teach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Егетаев З.С."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:id="@+id/item_sub3_lec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="209 каб. (главный)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/akcent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="13:30\n\n14:00"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/akcent"/>
+
+            <LinearLayout
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/item_sub4_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Алгоритмдеу және бағдарламалау негіздері"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:id="@+id/item_sub4_teach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Егетаев З.С."
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:id="@+id/item_sub4_lec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="209 каб. (главный)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

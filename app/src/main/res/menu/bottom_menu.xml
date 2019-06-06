@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottomNav1"
+        android:icon="@drawable/ic_view_eye"
+        app:showAsAction="collapseActionView"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bottomNav2"
+        android:icon="@drawable/ic_done"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bottomNav3"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitefon"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:ignore="UselessParent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/goneRecycler"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="95dp"
+                android:src="@drawable/logo_atek"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/blackAction"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="290dp"
+            android:layout_height="305dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_auth_head_text"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="@color/TextColName"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:background="@color/colorPrimaryDark"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reg_auth_name_text"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/White"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <EditText
+                    android:id="@+id/reg_et_name"
+                    android:textColor="@color/White"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingStart="8dp"
+                    tools:ignore="LabelFor,RtlSymmetry"
+                    android:inputType="" />
+
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reg_auth_last_name_text"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/White"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <EditText
+                        android:id="@+id/reg_et_lastName"
+                        android:textColor="@color/White"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:paddingStart="8dp"
+                        tools:ignore="LabelFor,RtlSymmetry"
+                        android:inputType="" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reg_auth_change_group_text"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/White"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/group_name_sp"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:entries="@array/group_name_arr"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp" />
+
+                    <Spinner
+                        android:id="@+id/group_kurs_sp"
+                        android:layout_width="75dp"
+                        android:layout_height="30dp"
+                        android:entries="@array/group_kurs_arr"
+                        />
+
+                    <Spinner
+                        android:id="@+id/group_id_sp"
+                        android:layout_width="75dp"
+                        android:layout_height="30dp"
+                        android:entries="@array/group_id_arr"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reg_submit_btn"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="@string/reg_auth_btn_text"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/auth_btn_bg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Домашное задания"
+            android:textSize="20sp"
+            android:id="@+id/TitleHw"
+            android:layout_marginBottom="10dp"
+            android:inputType="textMultiLine|textImeMultiLine"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Дополнительно"
+            android:id="@+id/TextHw"
+            android:layout_marginBottom="15dp"
+            android:inputType="textMultiLine|textImeMultiLine"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Предмет"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/SubHw"
+            android:inputType="textMultiLine|textImeMultiLine"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Дата увед."
+                android:id="@+id/vremHw" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Время"
+                android:id="@+id/vrem2Hw" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

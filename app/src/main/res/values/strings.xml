@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">My Atek</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Atek</string>
+    <string name="nav_header_subtitle">   ver 1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_col_rus">АЛМАТИНСКИЙ ТЕХНИКО-ЭКОНОМИЧЕСКИЙ КОЛЛЕДЖ ПУТЕЙ СООБЩЕНИЯ</string>
+    <string name="about_text1">Технико-экономический колледж (ТЭК) при Учреждении “Казахский университет путей сообщения” (КУПС)  был создан на основании приказа ректора № 71-1 от 01.06.2004 г.  для подготовки  технических и экономических специалистов среднего звена.
+        \n \nС 05 февраля 2013 года колледж переименован на Товарищество с ограниченной ответственностью «Алматинский технико-экономический колледж путей сообщения»  лицензия выдана от 07.06.2013 №13009129.
+        \n \n<b>Дата создания образовательной организации:</b> \n01 июня 2004 года.
+        \n \n<b>Руководитель учредителя образовательной организации:</b> \nОмарова Гульмира Амангельдиновна
+    </string>
+
+    <string name="about_text2">Республика Казахстан, 050063, город Алматы, Ауэзовский район, мкр. Жетысу 1, дом 32/3
+    </string>
+
+    <string name="about_text3"><b>www.atekps.kz</b>  (наш сайт:)\n
+        \n+7 (727) 376-74-78 (внут. 555)
+        \n+7 (727) 376-74-78 (вн. 515)(приёмная директора)
+        \n+7 (727) 376-74-81(факс)
+    </string>
+
+    <string name="insta_acc">atekps_edu
+    </string>
+    <string name="face_acc">atekps_edu
+    </string>
+    <string name="vkon_acc">kups_kkzhu
+    </string>
+    <string name="info_text">&#160;&#160;&#160;&#160;Основные сведения</string>
+    <string name="our_adress_text">&#160;&#160;&#160;&#160;Наш адрес</string>
+    <string name="our_contact_text">&#160;&#160;&#160;&#160;Наши контакты</string>
+    <string name="social_text">&#160;&#160;&#160;&#160;Мы в соц. сетях</string>
+    <string name="menu_opt_aboutCol">О колледже</string>
+    <string name="menu_opt_shedule">Расписание</string>
+    <string name="menu_opt_homeW">Домашное задание</string>
+    <string name="menu_opt_news">Новости</string>
+    <string name="menu_opt_settings">Настройки</string>
+    <string name="menu_opt_aboutApp">О программе</string>
+
+
+    <string name="plus">+</string>
+    <string name="menu_group_tit">Коммуникация</string>
+    <string name="not_internet_connection">Нет интернет соединение</string>
+    <string name="reg_auth_head_text">Авторизация</string>
+    <string name="reg_auth_name_text">Имя:</string>
+    <string name="reg_auth_last_name_text">Фамилия:</string>
+    <string name="reg_auth_change_group_text">Выберите свою группу:</string>
+    <string name="reg_auth_btn_text">Войти</string>
+    <string name="todo">TODO</string>
+
+    <array name="group_name_arr">
+        <item>ПО</item>
+        <item>АТУ</item>
+        <item>ПС</item>
+        <item>ПТСДМ</item>
+        <item>ОПУ</item>
+        <item>СЖД</item>
+    </array>
+
+    <array name="group_kurs_arr">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </array>
+
+    <array name="group_id_arr">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+    </array>
+</resources>
